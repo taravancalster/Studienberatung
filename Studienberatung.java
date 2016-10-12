@@ -7,6 +7,11 @@ public Studienberatung{
 		
 		System.out.println("Hast du Abitur?");
 		String answer = scanner.next();
+		
+		if (answer.equalsIgnoreCase("ja")){
+			System.out.println("Bist du Wissbegierig?");
+			answer = scanner.next();
+		}
 	}
 	
 }
