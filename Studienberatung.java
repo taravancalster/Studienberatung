@@ -12,6 +12,11 @@ public Studienberatung{
 				System.out.println("Hast du Fachabitur?");		
 				answer = scanner.next();
 			}
+		
+			else if (answer.equalsIgnoreCase("ja")){
+				System.out.println("Bist du Wissbegierig?");
+				answer = scanner.next();
+			}
 	}
 	
 }
